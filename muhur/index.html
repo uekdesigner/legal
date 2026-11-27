@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MÜHÜR — Gizlilik Politikası · Privacy Policy</title>
-<meta name="description" content="MÜHÜR Parola Yöneticisi gizlilik politikası. Hiçbir veri toplanmaz; her şey cihazınızda şifreli kalır.">
+<title>MÜHÜR — Kullanım Koşulları · Terms of Use</title>
+<meta name="description" content="MÜHÜR Parola Yöneticisi kullanım koşulları: verileriniz telefonunuzda, ana parolanız ve yedekleriniz sizin elinizde.">
 <meta name="theme-color" content="#14171a">
 <style>
   :root {
@@ -128,6 +128,12 @@
     .js [data-lang] { display: block !important; }
     section.card { break-inside: avoid; }
   }
+
+  .sum { border-left: 4px solid var(--gold); }
+  .sum ul { list-style: none; padding-left: 0; }
+  .sum li { padding-left: 26px; position: relative; }
+  .sum li::before { content: "✓"; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
+  footer a { color: var(--muted); }
 </style>
 </head>
 <body>
@@ -150,83 +156,121 @@
 <!-- ===================== TÜRKÇE ===================== -->
 <div data-lang="tr" lang="tr">
   <div class="wrap hero">
-    <h1>Gizlilik Politikası</h1>
-    <p class="date">Yürürlük tarihi: 22 Kasım 2026</p>
-    <p class="lead">MÜHÜR hiçbir kişisel veri toplamaz, sunucuya göndermez ve kimseyle paylaşmaz. Tüm kayıtlarınız yalnızca telefonunuzda, şifreli olarak durur.</p>
+    <h1>Kullanım Koşulları</h1>
+    <p class="date">Yürürlük tarihi: 28 Kasım 2026</p>
+    <p class="lead">Kısacası: verileriniz yalnızca telefonunuzda durur; ana parolanız ve yedekleriniz sizin elinizdedir.</p>
     <ul class="pills">
-      <li>Veri toplanmaz</li>
-      <li>İnternet izni yok</li>
-      <li>Cihazda AES-256 şifreleme</li>
-      <li>Reklam ve takip yok</li>
+      <li>Veriler sizde</li>
+      <li>Ana parola kurtarılamaz</li>
+      <li>Yedek sizin elinizde</li>
+      <li>İptal Google Play'den</li>
     </ul>
   </div>
 
   <main class="wrap">
     <section class="card">
-      <p>Bu politika, UEK DESIGNER tarafından geliştirilen <strong>MÜHÜR Parola Yöneticisi</strong> (com.uekdesigner.muhur) uygulaması için geçerlidir.</p>
+      <p>Bu koşullar, UEK DESIGNER tarafından geliştirilen <strong>MÜHÜR Parola Yöneticisi</strong> (com.uekdesigner.muhur) uygulaması için geçerlidir.</p>
     </section>
 
-    <section class="card">
-      <h2><span class="n">1</span>Topladığımız veriler</h2>
-      <p>Hiçbiri. MÜHÜR'de hesap, analiz aracı, reklam ya da kullanım takibi yoktur. Uygulamanın internet izni yoktur; bu yüzden telefonunuzdan dışarıya veri gönderemez.</p>
-    </section>
-
-    <section class="card">
-      <h2><span class="n">2</span>Telefonunuzda saklanan veriler</h2>
+    <section class="card sum">
+      <h2>Kısaca</h2>
       <ul>
-        <li><strong>Kayıtlarınız</strong> (parolalar, kart ve banka bilgileri, notlar, 2FA anahtarları ve benzeri) telefonunuzda, şifreli bir veritabanında saklanır. Şifreleme AES-256-GCM ile yapılır; anahtar ana parolanızdan Argon2id ile türetilir.</li>
-        <li><strong>Ana parolanız</strong> hiçbir yerde saklanmaz ve bizde kopyası yoktur. Unutursanız verileriniz kurtarılamaz; biyometrik açmayı önceden açtıysanız yeni bir ana parola belirleyebilirsiniz.</li>
-        <li><strong>Android bulut yedeklemesi</strong> bu uygulama için kapalıdır; verileriniz Google hesabınıza otomatik olarak yedeklenmez.</li>
+        <li>Verilerinizi biz göremeyiz; hepsi telefonunuzda, şifreli durur.</li>
+        <li>Ana parolanızı unutursanız verileriniz açılamaz. Bizde kopyası yok.</li>
+        <li>Telefon kaybolur ya da uygulama silinirse veriler de gider. Düzenli yedek alın.</li>
+        <li>Aboneliği Google Play'den istediğiniz zaman iptal edebilirsiniz. Uygulamayı silmek iptal etmez.</li>
+        <li>Pro bitse de kayıtlarınız silinmez.</li>
       </ul>
     </section>
 
     <section class="card">
-      <h2><span class="n">3</span>İzinler</h2>
-      <table>
-        <tr><th>Kamera</th><td>Metin, IBAN, 2FA QR kodu ve yedek kodları taramak için. Görüntü telefonda işlenir (Google ML Kit, uygulamanın içinde), kaydedilmez ve gönderilmez.</td></tr>
-        <tr><th>Biyometri</th><td>Kasayı parmak izinizle açmak için. Parmak izi verisine uygulama erişemez; doğrulamayı Android yapar.</td></tr>
-        <tr><th>Google Play faturalandırma</th><td>Pro aboneliği ve hediye kodları için.</td></tr>
-        <tr><th>Ağ durumunu görme</th><td>Google Play faturalandırma kütüphanesi ekler. İnternete bağlanma izni vermez.</td></tr>
-      </table>
+      <h2><span class="n">1</span>MÜHÜR nedir?</h2>
+      <p>MÜHÜR, parolalarınızı ve önemli bilgilerinizi <strong>yalnızca telefonunuzda</strong>, şifreli olarak saklayan bir uygulamadır. İnternete bağlanmaz. Verilerinizi biz göremeyiz, alamayız, saklayamayız.</p>
+      <p>Uygulamayı kullanarak bu koşulları kabul etmiş olursunuz. Kabul etmiyorsanız lütfen uygulamayı kullanmayın.</p>
     </section>
 
     <section class="card">
-      <h2><span class="n">4</span>Pano ve ekran görüntüleri</h2>
-      <p>Kopyaladığınız değerler, seçtiğiniz sürenin sonunda (varsayılan 30 saniye) panodan otomatik olarak silinir. Uygulama ekranlarının görüntüsü varsayılan olarak alınamaz; bunu ayarlardan geçici olarak açabilirsiniz.</p>
-    </section>
-
-    <section class="card">
-      <h2><span class="n">5</span>Satın almalar</h2>
-      <p>Ödemeleri Google Play alır; kart ya da ödeme bilgilerinizi görmeyiz. Pro'yu açmak için Google Play, satın alma onayını telefonunuzdaki uygulamaya iletir; bu onay telefonda doğrulanır ve bize gönderilmez. Ödemeler için <a href="https://policies.google.com/privacy" rel="noopener">Google Gizlilik Politikası</a> geçerlidir.</p>
-    </section>
-
-    <section class="card">
-      <h2><span class="n">6</span>Yedekleme ve dışa aktarma</h2>
-      <p>Yedekleme ve dışa aktarma yalnızca siz istediğinizde, seçtiğiniz konuma yapılır.</p>
+      <h2><span class="n">2</span>Ana parolanız</h2>
       <ul>
-        <li><strong>Yedek dosyası (.muhur)</strong> ayrı bir yedek parolasıyla şifrelenir.</li>
-        <li><strong>Excel dosyası şifresizdir.</strong> Bu dosyanın saklanması ve paylaşılması sizin sorumluluğunuzdadır.</li>
+        <li>Kasanızı yalnızca ana parolanız açar. Ana parolanızın <strong>kopyası bizde yoktur.</strong></li>
+        <li>Ana parolanızı unutursanız verilerinizi <strong>kimse açamaz, biz de açamayız.</strong> Parmak izi ile açmayı önceden açtıysanız yeni bir ana parola belirleyebilirsiniz.</li>
+        <li>Hatırlayacağınız bir parola seçin ve kimseyle paylaşmayın.</li>
       </ul>
     </section>
 
     <section class="card">
-      <h2><span class="n">7</span>Çocuklar</h2>
-      <p>MÜHÜR 18 yaş ve üzeri kullanıcılar için tasarlanmıştır. Hiç kimseden veri toplamadığımız için 13 yaşından küçük çocuklardan da veri toplamayız.</p>
+      <h2><span class="n">3</span>Yedek almak sizin elinizde</h2>
+      <p>Telefonunuz kaybolursa, bozulursa, sıfırlanırsa ya da uygulamayı silerseniz <strong>telefondaki veriler de silinir.</strong> Google hesabınıza otomatik yedek alınmaz.</p>
+      <ul>
+        <li>Ayarlardan düzenli olarak <strong>şifreli yedek (.muhur)</strong> alın ve telefondan başka bir yerde saklayın.</li>
+        <li>Yedek parolanızı da unutmayın; onu da biz kurtaramayız.</li>
+      </ul>
     </section>
 
     <section class="card">
-      <h2><span class="n">8</span>Verilerin silinmesi</h2>
-      <p>Uygulamayı kaldırdığınızda telefondaki tüm veriler silinir. Kendi oluşturduğunuz yedek ve Excel dosyaları kaydettiğiniz yerde kalır; onları siz silebilirsiniz. Uygulamayı kaldırmak aboneliği iptal etmez; aboneliğinizi Google Play'den yönetebilirsiniz.</p>
+      <h2><span class="n">4</span>Telefonunuzun güvenliği</h2>
+      <p>MÜHÜR kendi kasasını korur, ama telefonunuzun tamamını koruyamaz. Aşağıdaki durumlarda oluşabilecek zararlardan biz sorumlu değiliz:</p>
+      <ul>
+        <li>Ana parolanızın ya da yedek parolanızın başkasıyla paylaşılması,</li>
+        <li>Şifresiz Excel dosyasının başkalarına gönderilmesi veya korunmasız bir yerde bırakılması,</li>
+        <li>Telefonda virüs, zararlı uygulama, root veya ekran kilidi olmaması gibi durumlar.</li>
+      </ul>
     </section>
 
     <section class="card">
-      <h2><span class="n">9</span>Değişiklikler</h2>
-      <p>Bu politika değişirse güncel hali bu sayfada, yeni yürürlük tarihiyle yayımlanır.</p>
+      <h2><span class="n">5</span>Pro, abonelik ve hediye kodları</h2>
+      <ul>
+        <li><strong>Ücretsiz deneme:</strong> İlk 14 gün Pro özelliklerini ücretsiz kullanırsınız. Kart istenmez, süre bitince kendiliğinden ücret alınmaz.</li>
+        <li><strong>Abonelik:</strong> Ödeme Google Play üzerinden alınır. Abonelik, siz iptal edene kadar her dönem otomatik yenilenir. Fiyat, satın almadan önce Google Play'de gösterilir.</li>
+        <li><strong>İptal:</strong> Google Play → Ödemeler ve abonelikler → Abonelikler bölümünden istediğiniz zaman iptal edebilirsiniz. İptal ederseniz Pro, ödediğiniz dönemin sonuna kadar açık kalır. <strong>Uygulamayı silmek aboneliği iptal etmez.</strong></li>
+        <li><strong>İade:</strong> İade talepleri Google Play'in iade kurallarına göre değerlendirilir.</li>
+        <li><strong>Hediye kodları:</strong> Ücretsizdir; Pro'yu kodda yazan süre boyunca açar. Para karşılığı satılamaz, kullanıldıktan sonra başkasına aktarılamaz.</li>
+        <li><strong>Pro bittiğinde hiçbir kaydınız silinmez.</strong> Kayıtlarınızı görmeye, kopyalamaya ve yedeklemeye devam edersiniz; 2FA kodlarınız çalışmaya devam eder.</li>
+      </ul>
     </section>
 
     <section class="card">
-      <h2><span class="n">10</span>İletişim</h2>
-      <p>Sorularınız için bize yazabilirsiniz:</p>
+      <h2><span class="n">6</span>Uygulama "olduğu gibi" sunulur</h2>
+      <p>MÜHÜR'ü dikkatle geliştiriyor ve her güncellemeyi test ediyoruz. Yine de hiçbir yazılım gibi hiç hata yapmayacağını garanti edemeyiz. Bu yüzden önemli bilgilerinizin yedeğini almanızı özellikle rica ediyoruz.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">7</span>Sorumluluğun sınırı</h2>
+      <p>Kanunların izin verdiği ölçüde:</p>
+      <ul>
+        <li>Uygulamanın kullanılmasından veya kullanılamamasından doğan dolaylı zararlardan (ör. kâr kaybı, iş kaybı) sorumlu değiliz.</li>
+        <li>Diğer zararlar için sorumluluğumuz, son 12 ayda MÜHÜR için ödediğiniz tutarla sınırlıdır.</li>
+      </ul>
+      <p>Kasıt ve ağır ihmal halleri bu sınırın dışındadır. Kanunun size tanıdığı ve sözleşmeyle kaldırılamayan tüketici haklarınız her durumda saklıdır.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">8</span>Kullanım kuralları</h2>
+      <ul>
+        <li>MÜHÜR'ü yasalara aykırı bir amaçla kullanmayın.</li>
+        <li>Uygulamanın değiştirilmiş kopyalarını yapmayın ve dağıtmayın; Pro kilidini atlatmaya çalışmayın.</li>
+      </ul>
+      <p>MÜHÜR adı, logosu ve yazılımı UEK DESIGNER'a aittir. Size uygulamayı kendi kullanımınız için kullanma hakkı verilir. Uygulamada kullanılan açık kaynak yazılımların lisansları uygulamanın Hakkında bölümünde listelenir.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">9</span>Gizlilik</h2>
+      <p>Kişisel veri toplamayız. Ayrıntılar için <a href="../">Gizlilik Politikası</a> sayfasına bakabilirsiniz.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">10</span>Değişiklikler</h2>
+      <p>Bu koşullar değişirse güncel hali bu sayfada, yeni yürürlük tarihiyle yayımlanır. Önemli değişiklikleri uygulamanın güncelleme notlarında da duyururuz. Değişiklikten sonra uygulamayı kullanmaya devam ederseniz yeni koşulları kabul etmiş olursunuz.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">11</span>Uygulanacak hukuk</h2>
+      <p>Bu koşullara Türkiye Cumhuriyeti hukuku uygulanır. Yaşadığınız ülkenin tüketiciyi koruyan zorunlu kuralları da saklıdır. Türkiye'deki kullanıcılar Tüketici Hakem Heyetlerine ve Tüketici Mahkemelerine başvurabilir.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">12</span>İletişim</h2>
+      <p>Bir sorun yaşarsanız önce bize yazın; çözmek için elimizden geleni yaparız:</p>
       <a class="mail" href="mailto:muratalper81@gmail.com">muratalper81@gmail.com</a>
     </section>
   </main>
@@ -235,90 +279,128 @@
 <!-- ===================== ENGLISH ===================== -->
 <div data-lang="en" lang="en">
   <div class="wrap hero">
-    <h1>Privacy Policy</h1>
-    <p class="date">Effective date: 22 November 2026</p>
-    <p class="lead">MÜHÜR does not collect any personal data, does not send it to any server and does not share it with anyone. All your entries stay on your phone, encrypted.</p>
+    <h1>Terms of Use</h1>
+    <p class="date">Effective date: 28 November 2026</p>
+    <p class="lead">In short: your data stays only on your phone; your master password and your backups are in your hands.</p>
     <ul class="pills">
-      <li>No data collected</li>
-      <li>No internet permission</li>
-      <li>AES-256 encryption on device</li>
-      <li>No ads or tracking</li>
+      <li>Your data stays with you</li>
+      <li>Master password can't be recovered</li>
+      <li>Backups are up to you</li>
+      <li>Cancel in Google Play</li>
     </ul>
   </div>
 
   <main class="wrap">
     <section class="card">
-      <p>This policy applies to <strong>MÜHÜR Password Manager</strong> (com.uekdesigner.muhur), developed by UEK DESIGNER.</p>
+      <p>These terms apply to <strong>MÜHÜR Password Manager</strong> (com.uekdesigner.muhur), developed by UEK DESIGNER.</p>
     </section>
 
-    <section class="card">
-      <h2><span class="n">1</span>Data we collect</h2>
-      <p>None. MÜHÜR has no accounts, analytics, ads or usage tracking. The app has no internet permission, so it cannot send data off your phone.</p>
-    </section>
-
-    <section class="card">
-      <h2><span class="n">2</span>Data stored on your phone</h2>
+    <section class="card sum">
+      <h2>In short</h2>
       <ul>
-        <li><strong>Your entries</strong> (passwords, card and bank details, notes, 2FA keys and similar) are stored on your phone in an encrypted database. Encryption uses AES-256-GCM, with a key derived from your master password using Argon2id.</li>
-        <li><strong>Your master password</strong> is never stored, and we have no copy of it. If you forget it, your data can't be recovered; if you turned on biometric unlock beforehand, you can set a new master password.</li>
-        <li><strong>Android cloud backup</strong> is turned off for this app; your data is not backed up to your Google account automatically.</li>
+        <li>We cannot see your data; it all stays on your phone, encrypted.</li>
+        <li>If you forget your master password, your data cannot be opened. We have no copy.</li>
+        <li>If your phone is lost or the app is uninstalled, the data is gone too. Back up regularly.</li>
+        <li>You can cancel the subscription in Google Play at any time. Uninstalling does not cancel it.</li>
+        <li>Even when Pro ends, your entries are not deleted.</li>
       </ul>
     </section>
 
     <section class="card">
-      <h2><span class="n">3</span>Permissions</h2>
-      <table>
-        <tr><th>Camera</th><td>To scan text, IBANs, 2FA QR codes and backup codes. Images are processed on the phone (Google ML Kit, built into the app) and are never saved or sent.</td></tr>
-        <tr><th>Biometrics</th><td>To unlock the vault with your fingerprint. The app never accesses fingerprint data; Android does the check.</td></tr>
-        <tr><th>Google Play billing</th><td>For the Pro subscription and gift codes.</td></tr>
-        <tr><th>View network state</th><td>Added by the Google Play billing library. It does not allow internet access.</td></tr>
-      </table>
+      <h2><span class="n">1</span>What is MÜHÜR?</h2>
+      <p>MÜHÜR is an app that keeps your passwords and important details <strong>only on your phone</strong>, encrypted. It does not connect to the internet. We cannot see, receive or store your data.</p>
+      <p>By using the app, you agree to these terms. If you do not agree, please do not use the app.</p>
     </section>
 
     <section class="card">
-      <h2><span class="n">4</span>Clipboard and screenshots</h2>
-      <p>Values you copy are cleared from the clipboard automatically after the time you choose (30 seconds by default). Screenshots of the app are blocked by default; you can allow them temporarily in settings.</p>
-    </section>
-
-    <section class="card">
-      <h2><span class="n">5</span>Purchases</h2>
-      <p>Payments are handled by Google Play; we never see your card or payment details. To turn on Pro, Google Play passes a purchase confirmation to the app on your phone; it is verified on the phone and never sent to us. The <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> applies to payments.</p>
-    </section>
-
-    <section class="card">
-      <h2><span class="n">6</span>Backup and export</h2>
-      <p>Backups and exports are made only when you ask, to a location you choose.</p>
+      <h2><span class="n">2</span>Your master password</h2>
       <ul>
-        <li><strong>Backup files (.muhur)</strong> are encrypted with a separate backup password.</li>
-        <li><strong>Excel files are not encrypted.</strong> Storing and sharing them is your responsibility.</li>
+        <li>Only your master password opens your vault. <strong>We have no copy of it.</strong></li>
+        <li>If you forget your master password, <strong>no one can open your data, including us.</strong> If you turned on fingerprint unlock beforehand, you can set a new master password.</li>
+        <li>Choose a password you will remember and do not share it with anyone.</li>
       </ul>
     </section>
 
     <section class="card">
-      <h2><span class="n">7</span>Children</h2>
-      <p>MÜHÜR is designed for users aged 18 and over. Since we collect no data from anyone, we do not collect data from children under 13.</p>
+      <h2><span class="n">3</span>Backups are in your hands</h2>
+      <p>If your phone is lost, broken or reset, or if you uninstall the app, <strong>the data on the phone is deleted too.</strong> Nothing is backed up to your Google account automatically.</p>
+      <ul>
+        <li>Make <strong>encrypted backups (.muhur)</strong> regularly from Settings and keep them somewhere other than your phone.</li>
+        <li>Do not forget your backup password either; we cannot recover it.</li>
+      </ul>
     </section>
 
     <section class="card">
-      <h2><span class="n">8</span>Deleting your data</h2>
-      <p>Uninstalling the app deletes all its data from your phone. Backup and Excel files you created stay where you saved them; you can delete them yourself. Uninstalling does not cancel a subscription; you can manage it in Google Play.</p>
+      <h2><span class="n">4</span>Your phone's security</h2>
+      <p>MÜHÜR protects its own vault, but it cannot protect your whole phone. We are not responsible for damage caused by:</p>
+      <ul>
+        <li>Sharing your master password or backup password with someone else,</li>
+        <li>Sending the unencrypted Excel file to others or leaving it somewhere unprotected,</li>
+        <li>Viruses, harmful apps, a rooted phone or a phone without a screen lock.</li>
+      </ul>
     </section>
 
     <section class="card">
-      <h2><span class="n">9</span>Changes</h2>
-      <p>If this policy changes, the updated version is published on this page with a new effective date.</p>
+      <h2><span class="n">5</span>Pro, subscriptions and gift codes</h2>
+      <ul>
+        <li><strong>Free trial:</strong> You can use Pro features free for the first 14 days. No card is needed, and you are not charged when it ends.</li>
+        <li><strong>Subscription:</strong> Payment is taken by Google Play. The subscription renews automatically every period until you cancel. The price is shown in Google Play before you buy.</li>
+        <li><strong>Cancelling:</strong> You can cancel at any time in Google Play → Payments &amp; subscriptions → Subscriptions. If you cancel, Pro stays on until the end of the period you paid for. <strong>Uninstalling the app does not cancel the subscription.</strong></li>
+        <li><strong>Refunds:</strong> Refund requests are handled under Google Play's refund policies.</li>
+        <li><strong>Gift codes:</strong> They are free and turn on Pro for the period stated on the code. They cannot be sold, and once used they cannot be transferred to someone else.</li>
+        <li><strong>When Pro ends, none of your entries are deleted.</strong> You can still view, copy and back up your entries, and your 2FA codes keep working.</li>
+      </ul>
     </section>
 
     <section class="card">
-      <h2><span class="n">10</span>Contact</h2>
-      <p>For questions, write to us:</p>
+      <h2><span class="n">6</span>The app is provided "as is"</h2>
+      <p>We build MÜHÜR carefully and test every update. Still, like any software, we cannot guarantee it will never have a bug. That is why we strongly ask you to back up your important data.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">7</span>Limits of liability</h2>
+      <p>To the extent permitted by law:</p>
+      <ul>
+        <li>We are not liable for indirect losses (for example, lost profit or lost business) arising from using or not being able to use the app.</li>
+        <li>For other losses, our liability is limited to the amount you paid for MÜHÜR in the last 12 months.</li>
+      </ul>
+      <p>These limits do not apply to intent or gross negligence. Your consumer rights that the law gives you and that cannot be removed by contract always remain.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">8</span>Rules of use</h2>
+      <ul>
+        <li>Do not use MÜHÜR for any unlawful purpose.</li>
+        <li>Do not make or distribute modified copies of the app, and do not try to bypass the Pro lock.</li>
+      </ul>
+      <p>The MÜHÜR name, logo and software belong to UEK DESIGNER. You are given the right to use the app for your own use. Licences of the open-source software used in the app are listed in the app's About section.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">9</span>Privacy</h2>
+      <p>We do not collect personal data. See the <a href="../#en">Privacy Policy</a> for details.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">10</span>Changes</h2>
+      <p>If these terms change, the updated version is published on this page with a new effective date. We also announce important changes in the app's release notes. If you keep using the app after a change, you accept the new terms.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">11</span>Governing law</h2>
+      <p>These terms are governed by the laws of the Republic of Türkiye. The mandatory consumer protection rules of the country you live in also continue to apply.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="n">12</span>Contact</h2>
+      <p>If you have a problem, please write to us first; we will do our best to solve it:</p>
       <a class="mail" href="mailto:muratalper81@gmail.com">muratalper81@gmail.com</a>
     </section>
   </main>
 </div>
 
 <footer>
-  <div class="wrap">© 2026 UEK DESIGNER · MÜHÜR</div>
+  <div class="wrap">© 2026 UEK DESIGNER · MÜHÜR · <a href="../">Gizlilik / Privacy</a></div>
 </footer>
 
 <script>
@@ -336,8 +418,8 @@
       }
       root.lang = lang;
       document.title = lang === 'tr'
-        ? 'MÜHÜR — Gizlilik Politikası'
-        : 'MÜHÜR — Privacy Policy';
+        ? 'MÜHÜR — Kullanım Koşulları'
+        : 'MÜHÜR — Terms of Use';
     }
     var hash = location.hash.replace('#', '');
     var start = hash === 'en' || hash === 'tr'
